@@ -1,6 +1,18 @@
-# bugs
+# error
+
 ```
-遇到的一些bug，打算使用github维护，有利于检索，以后也许会同步到其他博客中
+遇到的一些error
+```
+
+
+
+
+```
+http://127.0.0.1:8000/student/show/
+请求 http://localhost:8000/student/distribution_of_actual_test_scores 报错
+302 FOUND strict-origin-when-cross-origin
+
+发现是 localhost 和 127.0.0.1 不同 所以跨域了
 ```
 
 
@@ -86,6 +98,14 @@ CRC 校验失败 : word\media\image42.jpeg
 例子
 
 (./src/方剂学_损坏文件.docx)
+
+
+
+
+
+## 因为移动硬盘位置导致 开机出现 authentication is need to run /usr/bin 
+将自己在xfce设置中添加的启动项重新添加一边（取消勾选，之后再次勾选）
+
 
 
 
