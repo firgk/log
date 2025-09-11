@@ -1,11 +1,28 @@
 # error
 
+
 ```
 遇到的一些error
 ```
 
 
 
+
+
+
+
+
+
+# sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '1' for key 'PRIMARY'")
+
+
+```
+mysql 主键不可以设置为0
+```
+
+
+
+## 302 FOUND strict-origin-when-cross-origin
 
 ```
 http://127.0.0.1:8000/student/show/
@@ -14,6 +31,17 @@ http://127.0.0.1:8000/student/show/
 
 发现是 localhost 和 127.0.0.1 不同 所以跨域了
 ```
+
+## 循环引用
+
+```
+python 中运行的一个独立的函数，终端输出，发现引用了其他的函数
+循环引用了，胡乱引用了没有使用到的类或函数，但是没有使用到
+编辑器会显示忽略（idea，　pycharm）但是他被加载了。
+
+```
+
+
 
 
 
@@ -105,6 +133,30 @@ CRC 校验失败 : word\media\image42.jpeg
 
 ## 因为移动硬盘位置导致 开机出现 authentication is need to run /usr/bin 
 将自己在xfce设置中添加的启动项重新添加一边（取消勾选，之后再次勾选）
+
+
+
+
+
+
+
+
+
+## venv创建的虚拟环境失效了
+
+原因是：移动了目录位置
+
+
+
+需要修改pip3、activate文件
+vi /home/env/pip3
+将其中的路径改掉
+
+vi /home/env/activate
+将其中的路径改掉
+
+
+部分版本（如python3.11) 只需要更改 activate
 
 
 
