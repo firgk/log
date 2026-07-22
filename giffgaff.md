@@ -29,6 +29,7 @@ https://github.com/firgk/giffgaff
     2026年7月22日 有时效性
 
 3. giffgaff 手机端 购买 虚拟 esim
+```
   打开`giffgaff APP`，登陆，
   1. 然后选择`eSIM`，
   2.  选择`choose your plan`，
@@ -40,13 +41,14 @@ https://github.com/firgk/giffgaff
   8.  然后就是要填写信用卡信息。包括 卡号 有效期 安全码 持卡人名字（全拼大写）。这些信息VISA卡上都有。照写就行。
   9.  如果出现按钮`Continue to install eSIM`，就代表成功了。
   10. 点击`Continue to install eSIM`，会给出一串字符。这串自负是不能直接在`EasyEUICC APP`中使用的。先保存起来。
-
+```
 4. EasyEUICC 写入
+```
   1. 使用二维码生成工具，将这串字符粘贴到输入框，然后在前面加上`LPA:`（注意:是英文符号）。`[注意最后的字符串是这样的 LPA:1$****************这是马赛克*****************]`点击“`下载图片`”，将图片保存好。
   2. 打开`giffgaff APP`，点击**+**号，选择使用二维码添加，选择上一步保存的二维码。 等待写卡成功。
   3. 此时这张`小白卡`中已经写入`eSIM`信息。**可以在任何手机上使用了**。
   4. **注意** iOS手机关闭iMessage 和 Facetime ，国内安卓手机关闭网络短信。
-
+```
   
 
 refer:
