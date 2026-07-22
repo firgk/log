@@ -17,7 +17,7 @@ https://github.com/firgk/giffgaff
 1. giffgaff 创建账户
 
 2. giffgaff 自己打补丁，或者是 用 魔改版 giffgaff（不安全），从而使这个软件可以检测到你后来插入的 esim
-
+```
   giffgaff 自己打补丁
     使用 2026年5月01日 之前的 giffgaff 版本
     shizuku 配置好调试权限
@@ -27,7 +27,7 @@ https://github.com/firgk/giffgaff
     LSPatch 右下角加号，之后选择生成 修补后 apk 的文件夹， 之后再次加号，选择 giffgaff apk，之后 修补就可以了，修补完之后安装。长按 管理-》应用， 再次选一下 HOOKUICC
     之后正常 
     2026年7月22日 有时效性
-
+```
 3. giffgaff 手机端 购买 虚拟 esim
 ```
   打开`giffgaff APP`，登陆，
