@@ -11,7 +11,9 @@ https://github.com/firgk/giffgaff
 ## 步骤
 
 一台安卓手机，请先用 EasyEUICC 检测是否支持小白卡
+
 一张小白卡（电商约 20 元，比如：某宝480k 22 元）可写入 esim 的卡片
+
 一张国内单标 Visa / 万事达信用卡，卡上只标记 VISA 或 MasterCard ，无 银联 标记
 
 1. giffgaff 创建账户
